@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ignore all datasets except the one required by app.py
+datasets/*
+!datasets/tmdb_movies_25k.csv
